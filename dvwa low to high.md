@@ -3,8 +3,10 @@
 id=1&Submit=Submit#
 ```
 putting 1 as input we get back the ID(The input), first name and surname fields
-so its like select first_name, last_name from users where user_id = '1';
-
+so its like 
+```
+select first_name, last_name from users where user_id = '1';
+```
 Putting a Single ' will resulting an Error 
 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' '' '' at line 1
 This happened because the query was user_id ' ';

